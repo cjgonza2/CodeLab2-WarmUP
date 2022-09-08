@@ -25,12 +25,6 @@ public class CircleSpawn : MonoBehaviour
         SpawnCircle();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void SpawnCircle()
     {
         List<GameObject> enemies = new List<GameObject>(); //creates a list of game objects that holds each instatiated clone.
@@ -64,15 +58,15 @@ public class CircleSpawn : MonoBehaviour
     {
        if( colorValue == 0)
         {
-            enemySpeed = 2;
+            enemySpeed = 20;
         }
        if(colorValue == 1)
         {
-            enemySpeed = 3;
+            enemySpeed = 25;
         }
        if(colorValue == 2)
         {
-            enemySpeed = 4;
+            enemySpeed = 40;
         }
 
     }
