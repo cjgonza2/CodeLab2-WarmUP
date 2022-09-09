@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
         if(timer <= 0) //when the timer reaches 0.
         {
             //Debug.Log("Timer is done, Game Over");
+            SceneManager.LoadScene("End Scene");
         }
     }
 }
