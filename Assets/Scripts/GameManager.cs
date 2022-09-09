@@ -14,8 +14,8 @@ public class GameManager : MonoBehaviour
     /// the textmeshpro.
     /// </summary>
     
-    public float timer;
-    public float roundedTimer;
+    float timer;
+    float roundedTimer;
     
     // Start is called before the first frame update
     void Start()
@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
 
         if(timer <= 0) //when the timer reaches 0.
         {
-            Debug.Log("Timer is done, Game Over");
+            //Debug.Log("Timer is done, Game Over");
         }
     }
 }

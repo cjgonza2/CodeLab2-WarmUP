@@ -58,15 +58,15 @@ public class CircleSpawn : MonoBehaviour
     {
        if( colorValue == 0)
         {
-            enemySpeed = 20;
+            enemySpeed = 15;
         }
        if(colorValue == 1)
         {
-            enemySpeed = 25;
+            enemySpeed = 20;
         }
        if(colorValue == 2)
         {
-            enemySpeed = 40;
+            enemySpeed = 30;
         }
 
     }
